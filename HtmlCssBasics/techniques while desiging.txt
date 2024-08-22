@@ -1,0 +1,24 @@
+color theory:
+    use the pallets of a color when u want to use a monochromatic color
+    when you want use the combination of two then use the colors that are opposite on the color wheel
+    for tri use the colors that are equally spaced on the color wheel
+    canva color wheel
+
+typography:
+    font style,size , font family
+    in a particular section use maximum 2 fonts
+
+www.fonts.google.com
+    select the design and and link it in the html section and define the font family section in the css element section
+    select the family and get the emmbedded code 
+
+Icons:
+    google icons include its link in the html file and use the span tag given below the link where u wanna insert the icons
+    font awesome
+    open cdnjs.com select the font-awesome library inlcude the top one link in the 
+    again go back to the font-awesome site and click the icon and include it's code 
+    
+Height:
+	TO SET HEIGHT FOR THE ENTIRE SECTION USE HEIGHT: 100VH
+	
+Set the margin to auto to make the content in the center

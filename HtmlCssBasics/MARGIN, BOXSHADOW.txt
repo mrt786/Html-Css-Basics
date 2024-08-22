@@ -1,0 +1,76 @@
+for  a circle the height and width must be same
+padding short hand:
+padding: 10px it's for all sides
+ top and bottom,left and right:
+    padding: 10px 2px
+top , left and right , bottom:
+
+top , right , bottom , left:
+    for alll 
+if you donot want to set for any one set them to zero
+
+Margin:
+    set space for the outside of the box
+    same short hand of padding is used
+for inline and padding it is set only on the left and right
+
+em:
+    em is used is for the n times to it's original
+    like for the text
+    padding depends upon the font size so when we increase the font size the padding will also increase when do em
+    in case when we nested in it then the parent is multlipled and then side increase , decrease which is not best
+    in it sets relative to it's parent
+
+rem:
+    for this rem is used and it sets relative to it's root or it's first
+
+
+rgba(r,g,b,opacity)
+     a for 0 - 1 
+     0 it will not seen but for 1 it'll be completely seen when increse then brightness of color increases
+
+        in hexadecimal it'll become 8 digit
+
+opacity:
+    it is for the whole element
+
+Transition:
+    time it'll take to perform that effect
+    transition:  property name| duration | timing function  linear , ease in, ease out , steps , cubic|delay how long time it'll take to change the view
+
+
+Css Transform:
+    rotate , scale , skew , translate
+    rotate:
+        transform: rotate(angledeg)
+            degree of rotation is clockwise , the transformation property also applies to the content and everthin
+    scale:
+        transform: scale(n) n the size of the element, or scale(x,y) in the x and y direction
+        scalex(n) only for the x direction
+     
+     translate:
+        moves
+
+    skew:
+        transform:skew(ndeg) where n can be both +ve and -ve and must be less than (90)
+        tilts like changes into the direction like  
+    
+    we can do:
+        transform: property1() property2() etc
+
+Box shadow:
+    box shadow: xaxis yaxis blur color
+    
+Background Image:
+    unsplash to escape from copyright
+    background-image: url("location")
+    background size: contain/ cover / auto
+                    neither crop nor stretch image repeat ho rahe ho gi  / crop / stretch
+            cover is best
+Postion:
+    Absolute Postion:
+        it is relative to it's parent. in this case ye space create nhi karta but relative ka case ma karta
+    Fixed Postion:
+        it is used in the navbars
+    sticky Postion:
+        search for sticky

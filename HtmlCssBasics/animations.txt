@@ -1,0 +1,25 @@
+Animation: 
+    // it is also name is as a template
+    @keyframe Animationname
+    from{property: initial val;} 
+    to{final val;}
+
+    animation-iteration count: how many time you want to see i.e n times or infinite
+    animation direction:
+        normal(from start to end) , reverse(from end to start) , alternate(both from start to end and end to start i.e starts from start) , alternate-re(starts from end)
+    search animation-timing-function: easein, easeout
+    define the properties of the iteration where you want to use them i.e in the class or element
+
+
+    shorthand: 
+        Animationname duration timingfunctio easein delay iteration/times direction
+
+
+
+    if we want the animation to work in the stages:
+    it can be many
+     from is the 0% , 100% is the to:
+        we wrote like this:
+            0%{}
+            50%{}
+            100%{}

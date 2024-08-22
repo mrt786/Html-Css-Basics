@@ -1,0 +1,11 @@
+@media(width/height/orientation: px/px/potrait or landscape)
+we can use min-width and max-width 
+or we can do like this 
+@media(max-width:200px) and (max-width: 300px)
+
+z-index:
+    which element will be shown when two elements overloap
+    by default all are zero which mean that 
+    this will work only for those who have position property not equal to  default or it is static
+    it can be + ve or -ve 
+    jis ka z-index ziada ho ga wo bahir show ho ga mean ko wo ziada appear ho ga

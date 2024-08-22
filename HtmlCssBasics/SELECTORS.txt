@@ -1,0 +1,109 @@
+div is a block level elements while span is a inline level elements
+
+inline display side by side while block on the next line
+
+subscript and superscript <sub>value</sub> <sup>value</sup>
+
+Semantic markups:
+        seo(ranking wise increase)
+        readable for a programmer
+        blinds can easily understand...
+        header, footer, nav, main(main content of a web),article , section(for div and span),aside (indirectly related to my content)
+
+Check emmets from:
+    emmet.io
+
+Button:
+    if it is defines outside of the forms then no actions else it goes to the page of the action
+type = "submit",reset, button
+URL MA NAME = value KA through value pass hoti ha 
+In radio button the name value must be same in all to make them in group also in the checkbox if you want but checkbox ma group karna ka bad bhi multiple ho sakta ha 
+feedback by default it is 2 rows and 10 columns
+
+Color System:
+    0-255(rgb)
+        rbg when all are same them them it will be white for black set all of them to zero
+        for r,g,b set the others to zero except the one you need
+        r + g = y
+        g + blue = light blue
+        b + r = p
+        if full then it will be dark
+        google Color picker
+
+    hexadecimal color system:
+        # 6 digit color code
+        first two characters for red, 2nd two for green and the third for the blue
+        all zero black
+        if the color code is like 
+            fff the original is ffffff
+            0f0 then the original is 00ff00
+            identical pairs ban rahe ho to short form ma bhi likh sakte ha
+        font weight:
+            100- 400
+            400 is normal
+        text Decoration:
+            underline,linthrough,overline
+        text Decoration Color:
+        text Decoration style:
+            wavy,double etc
+        line-height:
+            times * normal
+        cssfontstack.com
+
+        right multiple fonts in the font-family if one is not found in the browser
+         text-transform transforms the text to uppercase or lowercase
+
+Selectors:
+    universal selector *{}
+    descendent Selectors div p{} or class , elements
+    div ma jo p ho ga un par ho ga style
+
+Adjacent sibling Combinator:
+    p + h3
+    applies the style to h3 that are immediately after p. Both are of the same level is ma kuch levels ko miss kar sakta ha
+child Combinator:
+(direct descendent)(jo ka bilkul next ha ye nhi ka sab par like div ma p ha next ol then li to div sa only p par ho sakta ha)
+    parent > child
+
+attribute selector:
+    element[att = "value"]
+    wo attributes jin ki yahe specific value ha us par apply ho ga 
+    input[type = "text"]
+    input[type]
+    agar aisa ha tb hi ho jata ha on the basis of attribute bhi ho sakta ha
+    search in the attribute selector and there are different types of the Selectors (mdn)
+    id > class > element priority
+
+    To find the priority in the selectors find the three digit value:
+        id , class , element
+            like in the descendent selector it if there is two types of selectors the element is 2
+                for class set the others to zero it will be 10
+        all of this is for the same property
+    
+Pseudo class:
+    syntax:
+        element: PseudoCLASS
+     
+     Hover:
+        (specificity)
+    Active:
+        when we click on the...
+    Checked: usually on radio or checkboxes
+    div:nth-of-type(2n): every even
+        for the evens or for the odd ones
+Pseudo elements:
+    ::first-letter
+    ::first-line
+    ::selection
+
+if specificity same then the cascading algorithm which says that the one that is at last it executes
+    inline > id > class > element
+
+
+search color pallets to make a good website i.e colors.co, canva.com,
+some things that are not inherited are width and height , border etc
+
+
+class/id: state ~ after this we have to display the name of the  classes which we want to change  
+
+

@@ -1,0 +1,32 @@
+Grid Template:
+    in this all elements become block to display it inline it'will be inline-grid 
+    to make the layout in the 2d direction
+    display grid
+    direct child are grid items
+    in grid the 
+    grid template to define the track size and number of the rows
+    grid-template-rows:100px it'll make one line
+    grid-template-colums:100px
+    when we make it as auto then the space will be automatically given 
+    if we not define the width and height of the element then it will be given acc to size of the cell
+    cell is the intsercetion of row and column as in the excel
+
+    Shortcut:
+        repeat(count, 1fr) 1fr is the 1 fraction part of the 100% or 1fr
+    Grid gaps:
+    gap between the rows and cols 
+        grid-gap: row-gap column-gap
+
+    Grid columns:
+        to make the item in the multipe grids i.e remain in multiple column for this er have to mention the columnstart & end for this 
+        if height and width is specified then it will be reserved for that column
+        or to do like this 
+        
+        grid-column: start/end
+        grid-colum: start/span number
+        span  number defines how many more cells are needed
+
+    Properties:
+        justify-items, justify-self: for horizontal
+        align-self, align-items: for vertical
+        when both alignments have same value: the place-items , place-self: i.e justify, align

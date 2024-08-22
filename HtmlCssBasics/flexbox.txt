@@ -1,0 +1,63 @@
+when we make the parent as a flex the inner items become inline
+flex direction:
+    is by default row we can change this to row
+    row-reverse from right to left
+    column-reverse from bottom to top
+When it overflow then there 
+Justify Content:
+it is along the main axis
+    by default it is start
+    space betweeen and around the Content along the main axis
+    flex-start: main axis ka start ma align ho jati ha  
+    all were arrange along the
+    flex-end: main axis ka end ma align ho jati ha
+
+    center:
+
+    space-betweeen: 
+        extra space between ma chale jae gi
+    space around:
+        half of the middle
+    space-evenly:
+        is sa betweeen and at corner same ho gi elements ka 
+
+flex wrap:
+flex wrap kia karta ha ka agar 1 line ma space na ho our hum chahta  ha ka elements ko utni hi space mila jitni unki width and height.
+        when there is no space on online moves on the other nowrap(by default)
+        wrap-reverse: in the reverse direction along the cross axis
+align-items:
+    moves when there is a space
+    flex-start: along the cross axis sets the elements 
+
+    flex-end: along the cross axis sets the elements from the end
+    center:
+
+    baseline:
+        makes the text/Content i.e Content height becomes same on the same line if the size of the elements is different
+
+align-Content:
+    along the cross axis
+    flex-start , flex-end , center, evenly, around, betweeen, baseline
+
+
+align self:
+    only for the individual and it has higher priority
+
+flex-sizing:
+    items can be grow or shrink
+
+    flex-basis:
+        set's the size for the main size i.e if row alignment then it is width i.e main size other it will be column. alignment is the flex direction
+        if the space is empty along the main axis then it increases by a factor
+    flex-grow:
+         by default it is 1
+         it is n times the space
+        can also make flex-width: so that it cannot exceed the desired
+        min-width;
+    flex-shrink:
+        short hand for writing flex are:
+        flex:
+            grow|shrink|basis
+            grow|basis
+            if unitless then only for the grow
+            if unit then it is basis
